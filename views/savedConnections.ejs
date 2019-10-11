@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <% include partials/head.ejs %>
+
+  <body>
+
+    <% include partials/header.ejs %>
+
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h5>MaD Tech Integrator's Connections</h5>
+          <table class="u-full-width">
+            <thead>
+              <tr>
+                <th>Connection</th>
+                <th>Category</th>
+                <th>Going?</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Integrative Technology Lab</td>
+                <td>ACHIM MENGES CLUB</td>
+                <td>Yes</td>
+                <td>
+                  <form class="button-line" action="connection" method="post">
+                    <input class="button" type="submit" value="Update">
+                  </form>
+                  <form class="button-line" action="savedConnections" method="post">
+                    <input class="button" type="submit" value="Delete">
+                  </form>
+                </td>
+              </tr>
+              <tr>
+                <td>Organic Architecture Model Shop</td>
+                <td>FRANK LLOYD WRIGHT CLUB</td>
+                <td>Maybe</td>
+                <td>
+                  <form class="button-line" action="connection" method="post">
+                    <input class="button" type="submit" value="Update">
+                  </form>
+                  <form class="button-line" action="savedConnections" method="post">
+                    <input class="button" type="submit" value="Delete">
+                  </form>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <% include partials/footer.ejs %>
+
+  </body>
+</html>

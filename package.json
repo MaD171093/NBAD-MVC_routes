@@ -1,0 +1,20 @@
+{
+  "name": "milestone2",
+  "version": "1.0.0",
+  "description": "MVC application with views and routes ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NBAD",
+    "MVC",
+    "Milestone-2"
+  ],
+  "author": "Manoj Deshpande",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  }
+}
